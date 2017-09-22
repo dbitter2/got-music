@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Got Music?</title>
+	<script type="text/javascript" src="main.js"></script>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<header>Answer the questions below for a song recommendation.</header>
+	<div id="questions">
+		<p id="question-text"></p>
+		<div id="answers">
+		</div>
+		<button id="next" onclick="answer()" disabled="true" type="button">Next</button>
+	</div>
+	<div id="result">
+		<div id="result-preview">
+		</div>
+		<button id="restart" onclick="location.reload()" type="button">Start Over</button>
+	</div>
+	<footer>Created by Dallas Bitter</footer>
+	<script type="text/javascript">
+		init();
+	</script>
+</body>
+</html>
